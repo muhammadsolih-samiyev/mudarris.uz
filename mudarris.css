@@ -1,0 +1,44 @@
+/* Alem */
+header{
+    position: relative;
+    top: 10px;
+    #myVideo {
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        min-width: 100%;
+        min-height: 100%;
+      }
+      
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav_ul{
+    display: flex;
+    list-style: none;
+    gap: 60px;
+    font-size: 150%;
+ 
+    
+}
+.nav_link_a{
+    text-decoration: none;
+    color: white;
+}
+
+div{
+    position:relative;
+    z-index: 100;
+    color:aquamarine;
+    
+}
+.nav_item_logo{
+    width: 20%;
+}
+select{
+    background-color: white;
+}
+/* Alem */

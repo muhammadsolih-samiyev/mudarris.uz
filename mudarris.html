@@ -1,49 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./mudarris.css">
 </head>
+
 <body>
-    <!-- Alem -->
     <header>
-    <nav>
-        <div class="nav_item1">
-            <img class="nav_item_logo" src="./img/mudarris_logo-removebg-preview.png" alt="bu yerda logo bor edi">
+        <nav>
+            <div class="nav_item">
+                <img class="nav_logo" src="./img/mudarris_logo-removebg-preview.png" alt="">
+            </div>
+
+
+            <div class="nav_item">
+                <ul class="nav_ul">
+                    <li class="nav_link"><a href="#" class="nav_link_a">Lesson</a></li>
+                    <li class="nav_link"><a href="#" class="nav_link_a">Teacher</a></li>
+                    <li class="nav_link"><a href="#" class="nav_link_a">Result</a></li>
+                    <li class="nav_link"><a href="#" class="nav_link_a">Contact</a></li>
+                </ul>
+            </div>
+            <div class="nav_item">
+                <!-- <select name="" id="">
+                    <option style="background-image: url(./img/Screenshot_2024-11-28_at_13.19.47-removebg-preview.png);" value="uz">uz</option>
+                    <option style="background-image: url(./img/Screenshot_2024-11-28_at_13.19.47-removebg-preview.png);" value="ru">ru</option>
+                    <option style="background-image: url(./img/Screenshot_2024-11-28_at_13.19.47-removebg-preview.png);" value="eng">eng</option>
+                </select> -->
+                <select name="countries">
+                    <option value="UZ">&emsp;Uzbek</option>
+                    <option value="RU">&emsp;Uzbek</option>
+                    <option value="bn">&emsp;Uzbek</option>
+                </select>
+
+            </div>
+
+
+        </nav>
+        <hr>
+
+        <video autoplay muted loop class="header_video">
+            <source src="./video/1102638769-preview.mp4" type="video/mp4">
+
+        </video>
+        <div class="header_text">
+            <h1>Lorem, ipsum dolor sit amet <br> consectetur adipisicing elit. <br>r Beatae, necessitatibus!</h1>
         </div>
-       <div class="nav_item2">
-        <ul class="nav_ul">
-            <li class="nav_link"><a class="nav_link_a" href="#">Haqida</a> </li>
-            <li class="nav_link"><a class="nav_link_a" href="#">Malumotlar</a></li>
-            <li class="nav_link"><a class="nav_link_a" href="#">Natijalr</a></li>
-            <li class="nav_link"><a class="nav_link_a" href="#">contact</a></li>
-        </ul>
-
-       </div>
-       <div class="nav_item3">
-        <select name="" id="">
-            <img src="./img/Screenshot_2024-11-28_at_13.19.47-removebg-preview.png" alt="">
-            <option value="uz">
-                
-                <p>uzbek</p>
-            </option>
-            <option value="ru">
-                <i class="fa-solid fa-burger"></i>
-                <p>ruscha</p>
-            </option>
-        </select>
-       </div>
-    </nav>
-    <hr>
-     <video autoplay muted loop id="myVideo">
-        <source src="./video/1102638769-preview.mp4" type="video/mp4">
-      </video>
-      
     </header>
-
-    <!-- Alem -->
-    
 </body>
+
 </html>

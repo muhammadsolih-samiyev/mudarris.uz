@@ -11,12 +11,11 @@ header {
     height: 100vh;
     overflow: hidden;
 }
-
 nav {
     position: absolute;
     z-index: 2;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     width: 100%;
 }
@@ -27,7 +26,7 @@ nav {
 
 .nav_ul {
     display: flex;
-    gap: 20%;
+    gap: 50px;
     list-style: none;
     font-size: 150%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -58,4 +57,15 @@ hr {
     top: 50%;
     color: aliceblue;
     left: 15%;
+}
+select{
+    border-radius: 3px;
+    background-color: orange;
+    padding: 10%;
+    font-size: 90%;
+}
+main{
+    background-color: blue;
+    height: 100vh;
+    margin-top: -1%;
 }
